@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node nodeData.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kakizaki55/que-and-stacks/issues"
   },
-  "homepage": "https://github.com/kakizaki55/que-and-stacks#readme"
+  "homepage": "https://github.com/kakizaki55/que-and-stacks#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
